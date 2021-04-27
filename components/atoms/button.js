@@ -1,5 +1,7 @@
-export default function button({ value, background, color, padding, border, radius, click }) {
+import Link from "next/link";
+export default function button({ value, background, color, padding, border, radius, click,link }) {
   return (
+    <Link href={link}>
     <button
       onClick={click}
       style={{
@@ -12,5 +14,6 @@ export default function button({ value, background, color, padding, border, radi
     >
       {value}
     </button>
+    </Link>
   );
 }

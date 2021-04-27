@@ -37,7 +37,7 @@ export default function test() {
                   border="none"
                   padding="10px 20px"
                   radius="10px"
-                  click ={handle}
+                  link="/product"
                 />
 
               </div>

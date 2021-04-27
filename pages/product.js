@@ -29,16 +29,19 @@ export default function test() {
               {products.map((product, index) => {
                 return (
                   <>
-                    <div className="col-md-3 mt-3 mr-5" style={{border:"solid thin #eee",borderRadius:"10px"}}>
-                      <MoleculeProductList
-                        image={product.image[0]}
-                        name={product.name}
-                        category={product.category}
-                        price={product.price}
-                        id={product.id}
-                        index={index}
-                      />
+                    <div className="col-md-3">
+                      <div className="mt-3 mr-3"  style={{border:"solid thin #eee",borderRadius:"10px"}}>
+                        <MoleculeProductList
+                          image={product.image[0]}
+                          name={product.name}
+                          category={product.category}
+                          price={product.price}
+                          id={product.id}
+                          index={index}
+                        />
+                      </div>
                     </div>
+
                   </>
                 );
               })}

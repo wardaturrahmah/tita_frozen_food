@@ -27,7 +27,7 @@ export const list_product = () => [
 },
 {
     id: 3,
-    name: "Umami Siomay Ayam Sayur",
+    name: "Umami Siomay Ayam",
     category: "Dimsum",
     gramatur: "250 gr",
     image: [
@@ -80,7 +80,7 @@ export const list_product = () => [
 },
 {
     id: 7,
-    name: "Umami Siomay Ayam Sayur",
+    name: "Umami Siomay Ayam",
     category: "Dimsum",
     gramatur: "250 gr",
     image: [
